@@ -7,9 +7,12 @@ def generate_secret(length:int=4 , unique_digits:bool = True ,allow_leading_zero
         if num not in secret_num:
             secret_num.append(num)
             counter +=1
-    print("max_tries:" , {max_tries})
+    # print("max_tries:" , {max_tries})
+
+
+
 
     return secret_num
-print(generate_secret())
+
 
 
